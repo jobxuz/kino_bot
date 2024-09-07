@@ -14,6 +14,7 @@ async def kino_send(message: types.Message):
             try:
                 await bot.send_video(chat_id=message.chat.id, video=kino[1], 
                                      caption=f"#KINO_KODI {kino[0]}\n\n🧾 KINO NOMI: {kino[2]}\n\n\n🤖 Bizning bot: @newkino01bot")
+                
             except:
                 await message.answer("Kino yuborishda xatolik")
         except:

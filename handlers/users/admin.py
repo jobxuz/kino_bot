@@ -34,7 +34,6 @@ class Kino(StatesGroup):
 
 
 
-
 @dp.message_handler(text="🚫 Bekor qilish",state='*')
 async def habar_end(message: types.Message, state: FSMContext):
 
